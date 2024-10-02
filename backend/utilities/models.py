@@ -6,6 +6,7 @@ class Item(BaseModel):
     price: float
     non_veg: bool
     type: str
+    hotel: str
 
 class Cart(BaseModel):
     item: Item
